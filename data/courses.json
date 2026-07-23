@@ -1,0 +1,128 @@
+[
+    {
+        "course": "Python Basics",
+        "category": "Programming",
+        "level": "Beginner",
+        "prerequisites": [],
+        "description": "Learn Python programming from scratch."
+    },
+    {
+        "course": "Core Java",
+        "category": "Programming",
+        "level": "Beginner",
+        "prerequisites": [],
+        "description": "Understand Java fundamentals and OOP concepts."
+    },
+    {
+        "course": "HTML & CSS",
+        "category": "Web Development",
+        "level": "Beginner",
+        "prerequisites": [],
+        "description": "Build basic web pages using HTML and CSS."
+    },
+    {
+        "course": "JavaScript Basics",
+        "category": "Web Development",
+        "level": "Beginner",
+        "prerequisites": [
+            "HTML & CSS"
+        ],
+        "description": "Add interactivity to websites."
+    },
+    {
+        "course": "Git & GitHub",
+        "category": "Tools",
+        "level": "Beginner",
+        "prerequisites": [],
+        "description": "Learn version control and collaboration."
+    },
+    {
+        "course": "SQL",
+        "category": "Database",
+        "level": "Beginner",
+        "prerequisites": [],
+        "description": "Learn how to query relational databases."
+    },
+    {
+        "course": "Flask",
+        "category": "Backend",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Python Basics"
+        ],
+        "description": "Build lightweight web applications using Flask."
+    },
+    {
+        "course": "Django",
+        "category": "Backend",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Python Basics"
+        ],
+        "description": "Build powerful web applications with Django."
+    },
+    {
+        "course": "REST APIs",
+        "category": "Backend",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Python Basics"
+        ],
+        "description": "Create APIs for web applications."
+    },
+    {
+        "course": "Data Structures",
+        "category": "Programming",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Python Basics"
+        ],
+        "description": "Learn arrays, linked lists, stacks, queues and trees."
+    },
+    {
+        "course": "Machine Learning Basics",
+        "category": "AI",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Python Basics"
+        ],
+        "description": "Introduction to supervised and unsupervised learning."
+    },
+    {
+        "course": "Artificial Intelligence Fundamentals",
+        "category": "AI",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Python Basics"
+        ],
+        "description": "Understand AI concepts and applications."
+    },
+    {
+        "course": "Cloud Computing",
+        "category": "Cloud",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Python Basics"
+        ],
+        "description": "Introduction to cloud services and deployment."
+    },
+    {
+        "course": "Docker Basics",
+        "category": "DevOps",
+        "level": "Intermediate",
+        "prerequisites": [
+            "Git & GitHub"
+        ],
+        "description": "Containerize applications using Docker."
+    },
+    {
+        "course": "System Design Basics",
+        "category": "Software Engineering",
+        "level": "Advanced",
+        "prerequisites": [
+            "Data Structures",
+            "REST APIs"
+        ],
+        "description": "Learn scalable software architecture concepts."
+    }
+]

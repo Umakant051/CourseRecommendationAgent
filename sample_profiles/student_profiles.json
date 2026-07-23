@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rahul",
+    "background": "B.Tech Computer Science Student",
+    "goal": "Become a Python Backend Developer",
+    "known_skills": ["Python Basics", "HTML & CSS"]
+  },
+  {
+    "name": "Sneha",
+    "background": "BCA Student",
+    "goal": "Become an AI Engineer",
+    "known_skills": ["Python Basics", "SQL"]
+  },
+  {
+    "name": "Amit",
+    "background": "Mechanical Engineering Graduate",
+    "goal": "Switch to Software Development",
+    "known_skills": ["Git & GitHub"]
+  },
+  {
+    "name": "Priya",
+    "background": "Electronics Engineering Student",
+    "goal": "Become a Full Stack Developer",
+    "known_skills": ["HTML & CSS", "JavaScript Basics"]
+  }
+]
