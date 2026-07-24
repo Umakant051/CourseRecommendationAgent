@@ -232,7 +232,7 @@ _Add `screenshots/recommendation.png` here._
 **Umakant Karadi**
 
 - GitHub: https://github.com/Umakant051
-- LinkedIn: *(Add your LinkedIn profile URL here if you'd like.)*
+- LinkedIn: https://www.linkedin.com/in/umakant-karadi-709299270/
 
 ---
 
