@@ -114,6 +114,11 @@ CourseRecommendationAgent/
 
 ---
 
+## Project Evolution
+
+- `cli_app.py` – Initial command-line implementation used to validate the recommendation workflow.
+- `app.py` – Flask web application with a browser-based user interface for the final project.
+
 ## ⚙️ Installation
 
 ### 1. Clone the repository
