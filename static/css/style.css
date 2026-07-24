@@ -1,0 +1,411 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   Body
+=========================== */
+
+/* body{
+
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#667eea,#764ba2);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:40px 20px;
+
+} */
+body{
+
+    background:linear-gradient(135deg,#667eea,#764ba2);
+
+    min-height:100vh;
+
+    margin:0;
+
+    padding:40px 20px;
+
+}
+
+/* ===========================
+   Main Container
+=========================== */
+
+/* .container{
+
+    width:100%;
+    max-width:1000px;
+
+} */
+.container{
+
+    width:100%;
+
+    max-width:1000px;
+
+    margin:0 auto;
+
+}
+
+/* ===========================
+   Card
+=========================== */
+
+/* .card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:40px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+
+} */
+.card{
+
+    background:#ffffff;
+
+    width:100%;
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    border-radius:18px;
+
+    padding:40px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.18);
+
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.card h1{
+
+    text-align:center;
+
+    color:#2b2d42;
+
+    font-size:36px;
+
+    margin-bottom:10px;
+
+}
+
+/* ===========================
+   Subtitle
+=========================== */
+
+.subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:35px;
+
+    font-size:16px;
+
+}
+
+/* ===========================
+   Labels
+=========================== */
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    margin-top:20px;
+
+    font-weight:600;
+
+    color:#333;
+
+}
+
+/* ===========================
+   Inputs
+=========================== */
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #d9d9d9;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+    resize:vertical;
+
+}
+
+textarea{
+
+    min-height:90px;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    border-color:#5b5ce2;
+
+    box-shadow:0 0 8px rgba(91,92,226,.25);
+
+}
+
+/* ===========================
+   Button
+=========================== */
+
+button{
+
+    width:100%;
+
+    margin-top:35px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(135deg,#5b5ce2,#4b3fd8);
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 25px rgba(91,92,226,.35);
+
+}
+
+/* ===========================
+   Recommendation Box
+=========================== */
+
+.recommendation-box{
+
+    margin-top:25px;
+
+    background:#f8f9fd;
+
+    border:1px solid #e4e6f1;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    line-height:1.9;
+
+    color:#333;
+
+    overflow-wrap:break-word;
+
+}
+
+/* ===========================
+   Recommendation Headings
+=========================== */
+
+.recommendation-box h1{
+
+    font-size:30px;
+
+    color:#4b3fd8;
+
+    margin-bottom:20px;
+
+}
+
+.recommendation-box h2{
+
+    font-size:24px;
+
+    color:#5b5ce2;
+
+    margin-top:30px;
+
+    margin-bottom:15px;
+
+}
+
+.recommendation-box h3{
+
+    font-size:20px;
+
+    color:#374151;
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+/* ===========================
+   Paragraph
+=========================== */
+
+.recommendation-box p{
+
+    margin-bottom:16px;
+
+    font-size:16px;
+
+}
+
+/* ===========================
+   Lists
+=========================== */
+
+.recommendation-box ul{
+
+    margin-left:28px;
+
+    margin-bottom:20px;
+
+}
+
+.recommendation-box ol{
+
+    margin-left:28px;
+
+    margin-bottom:20px;
+
+}
+
+.recommendation-box li{
+
+    margin-bottom:12px;
+
+}
+
+/* ===========================
+   Bold Text
+=========================== */
+
+.recommendation-box strong{
+
+    color:#111827;
+
+    font-weight:600;
+
+}
+
+/* ===========================
+   Horizontal Line
+=========================== */
+
+.recommendation-box hr{
+
+    margin:30px 0;
+
+    border:none;
+
+    border-top:1px solid #ddd;
+
+}
+
+/* ===========================
+   Links
+=========================== */
+
+a{
+
+    text-decoration:none;
+
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+/* .footer{
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:25px;
+
+    font-size:14px;
+
+    opacity:.95;
+
+} */
+.footer{
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:30px;
+
+    font-size:14px;
+
+    padding-bottom:20px;
+
+}
+
+/* ===========================
+   Spacing
+=========================== */
+
+.mt-20{
+
+    margin-top:20px;
+
+}
+
+.mb-20{
+
+    margin-bottom:20px;
+
+}

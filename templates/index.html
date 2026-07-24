@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Course Recommendation Agent</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>🤖 AI Course Recommendation Agent</h1>
+
+        <p class="subtitle">
+            Get personalized learning recommendations based on your interests,
+            skills, and career goals.
+        </p>
+
+        <form action="/recommend" method="POST">
+
+            <label>Student Name</label>
+            <input type="text" name="name" required>
+
+            <label>Current Skills</label>
+            <textarea name="skills" rows="3"
+                placeholder="Example: Python, HTML, SQL"></textarea>
+
+            <label>Interests</label>
+            <textarea name="interests" rows="3"
+                placeholder="Example: AI, Web Development"></textarea>
+
+            <label>Career Goal</label>
+            <input type="text" name="goal"
+                placeholder="Example: AI Engineer">
+
+            <label>Learning Level</label>
+
+            <select name="level">
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+            </select>
+
+            <button type="submit">
+                Get Recommendations 🚀
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>

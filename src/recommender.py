@@ -16,8 +16,14 @@ def recommend_courses(student):
 
     recommendations = []
 
+    # Convert known skills to lowercase and remove extra spaces
+    known_skills = [
+        skill.strip().lower()
+        for skill in student["known_skills"]
+    ]
+
     for course in courses:
-        if course["course"] not in student["known_skills"]:
+        if course["course"].strip().lower() not in known_skills:
             recommendations.append({
                 "course": course["course"],
                 "reason": f"Recommended because you want to become a {student['goal']}."

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Recommendations</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>🎓 Course Recommendations</h1>
+
+        <p class="subtitle">
+            Personalized learning path for
+            <strong>{{ name }}</strong>
+        </p>
+
+        <div class="recommendation-box">
+            {{ recommendation | safe }}
+        </div>
+
+        <a href="/">
+            <button>
+                ← Generate Another Recommendation
+            </button>
+        </a>
+
+    </div>
+
+    <footer class="footer">
+        Built for Rooman AI Project Challenge • Powered by Groq & Flask
+    </footer>
+
+</div>
+
+</body>
+</html>
