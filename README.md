@@ -267,6 +267,46 @@ _Add `screenshots/recommendation.png` here._
 
 ![Recommendation Page](screenshots/recommendation.png)
 
+## 🧠 Design Approach
+
+The agent follows a simple AI agent workflow:
+
+1. User provides student information:
+   - Skills
+   - Interests
+   - Career goal
+   - Learning level
+
+2. The recommendation engine checks the available course catalogue stored in JSON format.
+
+3. Relevant courses are selected based on the student's profile.
+
+4. The Groq LLM generates an ordered learning path with explanations for each recommendation.
+
+The project uses prompt engineering instead of training a custom ML model because the goal was to build a lightweight and practical AI agent within the given time limit.
+
+---
+
+## ⚖️ Tradeoffs and Limitations
+
+### Model Choice
+Groq LLM was selected because it provides fast inference and easy API integration.
+
+### Data Choice
+A small manually created course catalogue was used instead of a large database to keep the project simple and focused.
+
+### Current Limitations
+- Recommendations depend on the available courses in the catalogue.
+- The system does not currently store user history.
+- Course matching can be improved using embeddings and vector databases.
+
+### Future Improvements
+With more time, the agent can be extended with:
+- Larger course datasets
+- Semantic search using embeddings
+- User profiles and history tracking
+- Database integration
+
 ## 🔮 Future Improvements
 
 - User authentication
