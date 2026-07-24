@@ -144,7 +144,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📸 Screenshots
+<!-- ## 📸 Screenshots
 
 ### Home Page
 
@@ -158,7 +158,20 @@ _Add `screenshots/form.png` here._
 
 _Add `screenshots/recommendation.png` here._
 
----
+--- -->
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Filled Form
+
+![Filled Form](screenshots/form.png)
+
+### Recommendation Page
+
+![Recommendation Page](screenshots/recommendation.png)
 
 ## 🔮 Future Improvements
 
