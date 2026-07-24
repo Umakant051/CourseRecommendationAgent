@@ -1,80 +1,98 @@
-# AI Course Recommendation Agent
+# 🤖 AI Course Recommendation Agent
 
-## Project Overview
+An AI-powered web application that generates personalized course recommendations and learning paths based on a student's skills, interests, career goals, and learning level.
 
-The AI Course Recommendation Agent is a beginner-friendly AI application built using Python and the Groq LLM API.
-
-It takes a student's background, career goal, and existing skills as input and recommends a personalized learning path with explanations for every recommended course.
-
-This project was developed as part of the Rooman Technologies AI Agent Challenge.
+This project was developed using **Python**, **Flask**, and the **Groq LLM API** as part of the **Rooman AI Project Challenge**.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Reads student profiles from JSON
-- Recommends courses based on career goals
-- Uses AI (Groq Llama 3.3 70B) to generate personalized learning paths
-- Explains why every course is recommended
-- Saves recommendations into a JSON file
-- Beginner-friendly implementation
+- Personalized course recommendations
+- AI-generated learning paths using Groq LLM
+- User-friendly Flask web interface
+- Responsive design
+- Markdown-formatted AI responses
+- Course database stored in JSON
+- Dynamic recommendations based on user input
+- Simple and clean UI
 
 ---
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- Python 3.10
+- Python
+- Flask
 - Groq API
-- Llama 3.3 70B Versatile
-- python-dotenv
+- HTML5
+- CSS3
 - JSON
+- Prompt Engineering
+- Git & GitHub
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 CourseRecommendationAgent/
 │
 ├── app.py
+├── cli_app.py
 ├── requirements.txt
-├── .env
 ├── README.md
 ├── .gitignore
 │
 ├── data/
-│   ├── students.json
 │   └── courses.json
 │
-├── src/
-│   └── recommender.py
+├── outputs/
+│   ├── recommendations.json
+│   └── recommendations.txt
 │
 ├── sample_profiles/
+│   ├── student1.txt
+│   ├── student2.txt
+│   ├── student3.txt
+│   └── student_profiles.json
 │
-├── outputs/
-│   └── recommendations.json
+├── src/
+│   ├── recommender.py
+│   ├── prompt.py
+│   └── courses.py
 │
-└── venv/
+├── static/
+│   └── css/
+│       └── style.css
+│
+└── templates/
+    ├── index.html
+    └── result.html
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Umakant051/CourseRecommendationAgent.git
+```
+
+### 2. Move into the project folder
+
+```bash
 cd CourseRecommendationAgent
 ```
 
-Create virtual environment
+### 3. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate environment
+### 4. Activate the virtual environment
 
 Windows
 
@@ -82,98 +100,87 @@ Windows
 venv\Scripts\activate
 ```
 
-Install dependencies
+Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+### 5. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
+### 6. Create a `.env` file
 
-## API Key Setup
-
-Create a `.env` file in the project root.
-
-Add your Groq API key.
-
-```
-GROQ_API_KEY=your_api_key_here
+```text
+GROQ_API_KEY=your_groq_api_key
 ```
 
----
-
-## Run the Project
+### 7. Run the application
 
 ```bash
 python app.py
 ```
 
----
+Open your browser and visit:
 
-## Sample Student Input
-
-```json
-{
-  "name": "Rahul",
-  "background": "B.Tech Computer Science",
-  "goal": "Python Backend Developer",
-  "known_skills": [
-    "Python Basics",
-    "HTML",
-    "CSS"
-  ]
-}
+```
+http://127.0.0.1:5000
 ```
 
 ---
 
-## Sample Output
+## 📋 How It Works
 
-- Ordered learning path
-- Course explanations
-- Beginner-friendly guidance
-
-The generated recommendations are automatically saved in:
-
-```
-outputs/recommendations.json
-```
+1. Enter your name.
+2. Enter your existing skills.
+3. Enter your interests.
+4. Choose your career goal.
+5. Select your learning level.
+6. The application analyzes your input.
+7. The AI generates a personalized learning path using the Groq LLM.
 
 ---
 
-## Design Choices
+## 📸 Screenshots
 
-- Used JSON files for simplicity.
-- Implemented rule-based course recommendation before sending data to the LLM.
-- Used Groq's Llama 3.3 70B model for fast AI-generated explanations.
-- Kept the project modular using a separate recommender module.
+### Home Page
 
----
+_Add `screenshots/home.png` here._
 
-## Trade-offs
+### Filled Form
 
-- Uses a small static course catalog.
-- Recommendations depend on predefined rules.
-- No web interface (CLI application only).
-- No database integration.
+_Add `screenshots/form.png` here._
 
-These choices keep the project simple, lightweight, and easy to understand.
+### Recommendation Page
+
+_Add `screenshots/recommendation.png` here._
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- Web interface using Flask
-- Larger course catalog
-- Database support
 - User authentication
-- Personalized course ratings
-- Learning progress tracking
+- Database integration
+- Course filtering
+- Course ratings
+- PDF export of recommendations
+- Course progress tracking
+- Deployment to the cloud
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Umakant Karadi**
 
-Built for the Rooman Technologies AI Agent Challenge.
+- GitHub: https://github.com/Umakant051
+- LinkedIn: *(Add your LinkedIn profile URL here if you'd like.)*
+
+---
+
+## 📄 License
+
+This project is intended for educational purposes and the Rooman AI Project Challenge.
