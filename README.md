@@ -32,7 +32,7 @@ This project was developed using **Python**, **Flask**, and the **Groq LLM API**
 
 ---
 
-## 📂 Project Structure
+<!-- ## 📂 Project Structure
 
 ```
 CourseRecommendationAgent/
@@ -55,6 +55,48 @@ CourseRecommendationAgent/
 │   ├── student2.txt
 │   ├── student3.txt
 │   └── student_profiles.json
+│
+├── src/
+│   ├── recommender.py
+│   ├── prompt.py
+│   └── courses.py
+│
+├── static/
+│   └── css/
+│       └── style.css
+│
+└── templates/
+    ├── index.html
+    └── result.html
+``` -->
+## 📂 Project Structure
+
+```text
+CourseRecommendationAgent/
+│
+├── app.py
+├── cli_app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── data/
+│   └── courses.json
+│
+├── outputs/
+│   ├── recommendations.json
+│   └── recommendations.txt
+│
+├── sample_profiles/
+│   ├── student1.txt
+│   ├── student2.txt
+│   ├── student3.txt
+│   └── student_profiles.json
+│
+├── screenshots/
+│   ├── home.png
+│   ├── form.png
+│   └── recommendation.png
 │
 ├── src/
 │   ├── recommender.py
