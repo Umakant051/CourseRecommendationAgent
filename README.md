@@ -132,9 +132,6 @@ CourseRecommendationAgent/
 │   └── recommendations.json
 │
 ├── sample_profiles/            # Sample input data for testing
-│   ├── student1.txt
-│   ├── student2.txt
-│   ├── student3.txt
 │   └── student_profiles.json
 │
 ├── screenshots/                # Project screenshots
